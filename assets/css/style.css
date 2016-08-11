@@ -1,0 +1,129 @@
+@font-face {
+  font-family: openSans;
+  scr: url("fonts/Open_Sans/OpenSans-Regular.ttf"); }
+@font-face {
+  font-family: openSans-light;
+  scr: url("fonts/Open_Sans/OpenSans-Light.ttf"); }
+@font-face {
+  font-family: openSans-Semibold;
+  scr: url("fonts/Open_Sans/OpenSans-Semibold.ttf"); }
+body {
+  font-family: 'openSans', arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5em;
+  color: #333;
+  letter-spacing: 0.4px;
+  overflow-x: hidden !important;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-weight: normal;
+  position: relative;
+  background-color: #FFF;
+  background-color: #EDF0F5;
+  height: 100%;
+  transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-duration: .1s;
+  -moz-transition-duration: .1s;
+  -webkit-transition-duration: .1s;
+  -o-transition-duration: .1s; }
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0; }
+
+/* Margin & Padding */
+img {
+  max-width: 100%; }
+
+.mr-5 { margin-right: 5px !important; }
+.mr-10 {margin-right: 10px !important; }
+.ml-5 { margin-left: 5px !important; }
+.ml-10 {margin-left: 10px !important; }
+.mt-10 { margin-top: 10px !important; }
+.mt-15 {margin-top: 15px !important; }
+.mt-20 {margin-top: 20px !important; }
+.mt-30 {margin-top: 30px !important; }
+.mb-10 {margin-bottom: 10px !important; }
+.mb-15 {margin-bottom: 15px !important; }
+.mb-20 {margin-bottom: 20px !important; }
+.mb-30 { margin-bottom: 30px !important; }
+.mtb-10 {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important; }
+
+.mtb-20 {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important; }
+
+.mtb-30 {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important; }
+
+/*  Font Style */
+.bold {
+  font-weight: bold !important; }
+
+.light {
+  font-weight: lighter !important; }
+
+.italic {
+  font-style: italic !important; }
+
+/* List Style */
+.block-list > li {
+  display: block;
+  margin-bottom: 5px; }
+
+.inline-list > li {
+  display: inline-block;
+  margin-right: 5px; }
+
+/* Div Style */
+.sector {
+  width: 100%;
+  float: left;
+  padding: 10px; }
+
+.block {
+  display: block !important; }
+
+/*  Typography */
+a {
+  color: #333; }
+
+a:focus, a:active, a:hover {
+  color: #000;
+  text-decoration: none;
+  outline: 0;
+  border: 0; }
+
+h1 {
+  font-size: 30px; }
+
+h2 {
+  font-size: 24px; }
+
+h3 {
+  font-size: 22px; }
+
+h4 {
+  font-size: 20px; }
+
+.f-16 {
+  font-size: 16px !important; }
+
+.f-18 {
+  font-size: 18px !important; }
+
+.f-20 {
+  font-size: 20px !important; }
+
+ul, li, ol {
+  list-style: none; }
+.cursor {
+  cursor: pointer; }
