@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <title>White | Perfection</title>
+    <title>White | perfection </title>
 
     <link rel="shortcut icon" href="assets/images/favicon.png">
     
@@ -14,35 +14,28 @@
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <script src="ics.js"></script>
+    <script src="scripts.js"></script>
+
+
 </head>
 <body>
     <div class="container">
-        
-        <div class="center-div">
-            <h1 class="echo">HTML5 Template</h1>
-        </div> <!-- End -->
+      <div class="row">
+        <div class="col-sm-12 col-xs-12">
+           
+           <div class="echo-block">
+             <span class="echo">HTML5 Template</span>
+           </div> <!-- echo Block -->
 
-        <div class="input-box">
-            <input type="text" id="typingName" class="text typing-name" placeholder="Type Your Name ..." style="color: transparent;text-shadow: 0 0 0 #333;" >
-        </div> <!-- End Input Box -->
-        
-    </div>  <!-- End -->
-        <script src="bower_components/jquery/dist/jquery.js"></script>
-        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-        <script>
-            console.log('Hi, This is Ahmad Sharif', 'https://github.com/TheAhmadSharif');
-        </script>
-
-        <script>
-
-
-
-         setInterval(function(){
-             var focusbox;
-             focusbox = document.getElementById("typingName");
-             focusbox.focus();
-        });
-
-        </script>
+           <div class="input-box">
+             <input type="text" id="typingName" class="typing-name">
+           </div> <!-- End Input Box -->
+        </div> <!-- End col -->
+      </div> <!-- End row -->
+    </div>  <!-- End Container-->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    
 </body>
 </html>

@@ -74,11 +74,12 @@ body {
 @import 'responsive';
 
 
-.center-div {
-	display: table;
-	margin: auto;
+.echo-block {
 	position: relative;
 	z-index: 10;
+	width: 100%;
+	display: table;
+	height: 800px;
 }
 .echo {
 	font-size: 60px;
@@ -87,11 +88,13 @@ body {
 	font-family: 'Arapey';
 	text-align: center;
 	padding: 20px;
-	float: left;
 	border: 1px solid #FFF;
 	letter-spacing: 10px;
-	top: 40%;
 	z-index: 12;
+	transition: all 1s ease-in-out;
+	border-bottom: 1px solid #333;
+	display: table-cell;
+	vertical-align: middle;
 }
 
 .echo:hover {
@@ -138,3 +141,6 @@ body {
 	box-shadow: none;
 }
 
+.form-block {
+	margin-top: 30px;
+}
