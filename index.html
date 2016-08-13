@@ -14,8 +14,6 @@
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <script src="ics.js"></script>
-    <script src="scripts.js"></script>
 
 
 </head>
@@ -24,8 +22,10 @@
       <div class="row">
         <div class="col-sm-12 col-xs-12">
            
-           <div class="echo-block">
-             <span class="echo">HTML5 Template</span>
+           <div id="echoHeight" class="echo-block">
+              <div class="table-block">
+                 <span class="echo">HTML5 Template</span>
+              </div> <!-- End -->
            </div> <!-- echo Block -->
 
            <div class="input-box">
@@ -37,5 +37,24 @@
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     
+
+    <script>
+
+    $(document).ready(function(){
+      
+      var w = window,
+          d = document,
+          e = d.documentElement,
+          g = d.getElementsByTagName('body')[0],
+          x = w.innerWidth || e.clientWidth || g.clientWidth,
+          y = w.innerHeight|| e.clientHeight|| g.clientHeight;
+
+      var Height= document.getElementById('echoHeight').style.height = y - 140 + 'px';
+      console.log(Height);
+
+    });
+
+      
+    </script>
 </body>
 </html>

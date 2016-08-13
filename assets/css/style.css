@@ -470,8 +470,11 @@ input[type="radio"]:checked + label span {
   position: relative;
   z-index: 10;
   width: 100%;
-  display: table;
-  height: 800px; }
+  display: table; }
+
+.table-block {
+  display: table-cell;
+  vertical-align: middle; }
 
 .echo {
   font-size: 60px;
@@ -485,8 +488,8 @@ input[type="radio"]:checked + label span {
   z-index: 12;
   transition: all 1s ease-in-out;
   border-bottom: 1px solid #333;
-  display: table-cell;
-  vertical-align: middle; }
+  position: relative;
+  left: 30%; }
 
 .echo:hover {
   border: 1px solid #333;
